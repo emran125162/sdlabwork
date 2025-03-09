@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple bookmark manager to organize your favorite websites.">
+    <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon"> <!-- Add your favicon link here -->
+    <title>Bookmark Manager ~ CodeWithMinhazh1</title>
+    <style>
+        /* Simple hover effect for links */
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Bookmark Manager</h1>
+    </header>
+
+    <section>
+        <h2>Primary Bookmarks</h2>
+        <p><a target="_blank" href="https://www.youtube.com">Open YouTube</a></p>
+        <p><a target="_blank" href="https://www.google.com">Open Google</a></p>
+        <p><a target="_blank" href="https://www.facebook.com">Open Facebook</a></p>
+    </section>
+
+    <section>
+        <h2>Secondary Bookmarks</h2>
+        <p><a target="_blank" href="https://www.wikipedia.com">Open Wikipedia</a></p>
+        <p><a target="_blank" href="https://www.apple.com">Open Apple</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bookmark Manager. Created by CodeWithMinhazh1.</p>
+    </footer>
+</body>
+</html>
